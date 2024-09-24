@@ -1,27 +1,25 @@
-@font-face {
-  font-family: Inter;
-  src: url(./Inter.ttf);
-}
-
 * {
   margin: 0;
   padding: 0;
   outline: none;
   box-sizing: border-box;
+  transition-duration: 0.25s;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+  font-size: clamp(0.7rem, 0.6rem + 0.5vw, 1rem);
+  font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: Inter, sans-serif;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+  color: var(--secondary-200);
 }
 
 a {
-  color: #2c2ca0;
+  color: var(--primary-300);
   text-decoration: none;
 }
 
@@ -30,6 +28,8 @@ a:focus {
   text-decoration: underline;
 }
 
-img {
-  max-width: 100%;
+.wrap {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
 }
