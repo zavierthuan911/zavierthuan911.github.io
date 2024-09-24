@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,164 @@
     <link rel="stylesheet" href="/assets/layout.css">
     <title>Dezigneur</title>
 </head>
+
 <body>
-    <img src="/assets/logo.svg" alt="dezigneur-logo" width="500">
-    <p>Email: <a href="mailto:dezigneur@gmail.com">dezigneur@gmail.com</a> | Phone: <a href="tel:+84389061870">+84 38 906 1870</a></p>
+    <nav id="main-nav">
+        <div class="wrap">
+            <a href="#" class="logo">
+                <img src="/assets//favicon.svg">
+                <span>Dezigneur&trade;</span>
+            </a>
+            <ul id="main-menu">
+                <li><a href="#intro" class="active">Homepage</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main-content">
+        <section id="intro">
+            <div class="wrap">
+                <div id="intro-cta">
+                    <div>
+                        <h1>Each <span class="highlight">Brand</span> has unique story</h1>
+                        <p>Dezigneur - a name that not only represents creativity but also stands as a
+                            symbol of uniqueness and
+                            sophistication.</p>
+                        <a href="#services">Let us help you tell that story together</a>
+                    </div>
+                    <img src="/assets/media/cta-figure.svg">
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <header id="service-heading">
+                <div class="wrap">
+                    <div id="service-title">
+                        <img src="/assets/media/37456246_8431476.svg">
+                        <div>
+                            <h2>Each of our services</h2>
+                            <p>Goes hand in hand with your company's growth, uniquely and consistently.</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <article id="service-content">
+                <div class="wrap">
+                    <div class="service-card">
+                        <div>
+                            <h3>You have a brilliant idea but don't know how to turn it into a strong brand?</h3>
+                            <p>We're here to help! From shaping your vision, developing strategies, to building a
+                                complete brand identity – our <span class="highlight">Brand Builder</span> will
+                                transform your business into a
+                                premium brand.</p>
+                        </div>
+                        <img src="/assets/media/33468234_8001998.svg">
+                    </div>
+                    <div class="service-card">
+                        <img src="/assets/media/44996012_9019834.svg">
+                        <div>
+                            <h3>Are you looking to design a unique and creative product to conquer the market?</h3>
+                            <p>Our <span class="highlight">Product Designer</span> service offers innovative solutions
+                                that combine aesthetics and
+                                functionality, creating the perfect product tailored to customer needs and market
+                                trends.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div>
+                            <h3>Looking to create a powerful and effective marketing campaign?</h3>
+                            <p>Our <span class="highlight">Campaign Planner</span> is here to guide you every step of
+                                the way—from planning,
+                                content development, to performance tracking. We ensure your campaign reaches the right
+                                audience, maximizes your budget, and delivers the best results. Let us turn your ideas
+                                into successful campaigns!</p>
+                        </div>
+                        <img src="/assets/media/12704338_5064482.svg">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="pricing">
+            <div class="wrap">
+                <header id="pricing-heading">
+                    <h2>Affordable Plans - Powerful Solutions</h2>
+                    <p>Choose from flexible pricing plans designed to fit your needs and budget, without compromising on
+                        quality or performance.</p>
+                </header>
+                <article id="pricing-content">
+                    <div class="pricing-card">
+                        <h3>Startup</h3>
+                        <h4>$1,000 - $2,000 / month</h4>
+                        <h5>Small Business with limited budgets</h5>
+                        <ul>
+                            <li>Basic brand strategy consultation</li>
+                            <li>Logo design and basic brand identity</li>
+                            <li>Brand storytelling and core values development</li>
+                            <li>Social media account setup and brand synchronization</li>
+                            <li>Monthly progress reports on brand development</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Business</h3>
+                        <h4>$3,000 - $5,000 / month</h4>
+                        <h5>Looking for PRO brand development</h5>
+                        <ul>
+                            <li>All services in the <b>Startup Plan</b></li>
+                            <li>Market research and competitor analysis</li>
+                            <li>Multi-channel communication strategy consulting</li>
+                            <li>SEO website with integrated marketing tools</li>
+                            <li>Brand content production (blogs, videos, infographics)</li>
+                            <li>Social media strategy management and optimization</li>
+                            <li>Brand identity optimization across marketing channels</li>
+                            <li>Detailed monthly analysis reports</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <h4>$10,000+ / month</h4>
+                        <h5>Seeking major investment in branding</h5>
+                        <ul>
+                            <li>All services in the <b>Business Plan</b></li>
+                            <li>Global brand strategy consulting</li>
+                            <li>Integrated marketing strategy development</li>
+                            <li>Complete rebranding and advanced identity</li>
+                            <li>Large-scale advertising campaigns (Digital, Offline)</li>
+                            <li>Brand events management and public relations</li>
+                            <li>In-depth custom analysis reports</li>
+                            <li>24/7 support from senior consultants</li>
+                        </ul>
+                    </div>
+                </article>
+                <footer id="pricing-footing">
+                    <p>Prices can be adjusted based on the specific requirements of each business.</p>
+                    <p>All packages can be customized to add or remove services as needed.</p>
+                </footer>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contact-info">
+                <div class="wrap">
+                    <form id="contact-form" onsubmit="return false">
+                        <img src="/assets/media/16482629_5764330.svg">
+                        <div>
+                            <input type="text" name="yourname" placeholder="John Doe">
+                            <input type="email" name="youremail" placeholder="email@example.com">
+                            <textarea name="yourmsg" placeholder="Your message"></textarea>
+                            <button>Send our Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer id="contact-footer">
+                <p><b>Address:</b> 3A Pham Hung st, Ward 4, District 8, HCM city, VN - <b>Email:</b>
+                    dezigneur@gmail.com
+                    - <b>Phone:</b> +(84) 902 648 119</p>
+                <p>&copy; Dezigneur 2024, All rights reserved.</p>
+            </footer>
+        </section>
+    </main>
 </body>
+
 </html>

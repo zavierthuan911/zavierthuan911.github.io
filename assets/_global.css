@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Inter;
+  src: url(./Inter.ttf);
+}
+
+:root {
+  --primary-100: #221c24;
+  --primary-200: #453748;
+  --primary-300: #67536c;
+  --primary-400: #8a6f91;
+  --primary-500: #a793ac;
+  --primary-600: #c4b7c8;
+  --primary-700: #e2dbe3;
+  --secondary-100: #1b2328;
+  --secondary-200: #33434c;
+  --secondary-300: #4c6371;
+  --secondary-400: #678698;
+  --secondary-500: #8fa5b3;
+  --secondary-600: #b3c2cb;
+  --secondary-700: #dbe2e6;
+  --highlight-000: #ff725e;
+  --highlight-100: #ffd3cd;
+  --blanc-100: rgba(255, 255, 255, 0.25);
+  --blanc-200: rgba(255, 255, 255, 0.5);
+  --blanc-300: rgba(255, 255, 255, 0.75);
+  --blanc-400: rgba(255, 255, 255, 1);
+  --noir-100: rgba(0, 0, 0, 0.25);
+  --noir-200: rgba(0, 0, 0, 0.5);
+  --noir-300: rgba(0, 0, 0, 0.75);
+  --noir-400: rgba(0, 0, 0, 1);
+}
