@@ -7,7 +7,7 @@ async function submitForm() {
 
   try {
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbwGkPqHjFYV138-W0A4aQNqaNHuopI0kdlpqRJHzfYeHwrRgmJUdB4raS-HPnty4GyuTw/exec",
+      "https://script.google.com/macros/s/AKfycbzf5YXPw6Ssq7etZ2CQcoKtHkarnmxHPqA3skh8p0O0J5qaFR8bAsKanMD03iJSs-1woQ/exec",
       {
         method: "POST",
         headers: {
