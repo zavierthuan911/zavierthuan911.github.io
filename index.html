@@ -17,7 +17,7 @@
     <nav id="main-nav">
         <div class="wrap">
             <a href="#" class="logo">
-                <img src="/assets//favicon.svg">
+                <img src="/assets/favicon.svg">
                 <span>Dezigneur&trade;</span>
             </a>
             <ul id="main-menu">
@@ -148,13 +148,13 @@
         <section id="contact">
             <div id="contact-info">
                 <div class="wrap">
-                    <form id="contact-form" onsubmit="return false">
+                    <form id="contact-form">
                         <img src="/assets/media/16482629_5764330.svg">
                         <div>
                             <input type="text" name="yourname" placeholder="John Doe">
                             <input type="email" name="youremail" placeholder="email@example.com">
                             <textarea name="yourmsg" placeholder="Your message"></textarea>
-                            <button>Send our Message</button>
+                            <button onclick="submitForm()">Send our Message</button>
                         </div>
                     </form>
                 </div>
@@ -167,6 +167,7 @@
             </footer>
         </section>
     </main>
+    <script src="/assets/required.js" defer></script>
 </body>
 
 </html>
