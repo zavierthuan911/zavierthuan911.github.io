@@ -1,9 +1,8 @@
 function submitForm(e) {
-  e.preventDefault();
   var formData = {
     name: document.querySelector("input[name='yourname']").value,
     email: document.querySelector("input[name='youremail']").value,
-    message: document.querySelector("input[name='yourmsg']").value,
+    message: document.querySelector("textarea[name='yourmsg']").value,
   };
 
   fetch(
